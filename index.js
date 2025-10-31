@@ -3,6 +3,7 @@ const buttons = document.querySelectorAll(".btn");
 
 let currentInput = "";
 
+let currentInput = "";
 
 buttons.forEach(btn => {
   btn.addEventListener("click", () => {
@@ -82,6 +83,7 @@ buttons.forEach(btn => {
     }
   });
 });
+
 
 
 
